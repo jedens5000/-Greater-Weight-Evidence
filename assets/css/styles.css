@@ -436,15 +436,16 @@ a.btn-cta {
 }
 
 .hero-carousel .carousel-inner .item-1 {
-  background-image: url("../img/balance-scale-tilted-right.jpg");
+  background-image: url("../img/balance-scale-tilted-right-cropped.jpg");
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  /* bottom: 10px; */
 }
 
 .hero-carousel .carousel-inner .item-2 {
-  background-image: url("../img/research-lab-pressure-guage.jpg");
+  background-image: url("../img/research-lab-pressure-guage-cropped.jpg");
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
