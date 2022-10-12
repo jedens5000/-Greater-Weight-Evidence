@@ -528,6 +528,10 @@ a.btn-cta {
 .about-section .items-wrapper .figure-image {
   max-width: 220px;
 }
+.about-section .items-wrapper .figure-image-height {
+  max-height: 220px;
+  max-width: auto;
+}
 
 .about-section .items-wrapper .item-inner {
   padding: 30px;
