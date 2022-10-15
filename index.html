@@ -80,9 +80,9 @@
               <li class="nav-item">
                 <a class="nav-link scrollto" href="#team">Who We Are</a>
               </li>
-              <li class="nav-item">
+              <!-- <li class="nav-item">
                 <a class="nav-link scrollto" href="#pricing">Pricing</a>
-              </li>
+              </li> -->
               <li class="nav-item">
                 <a class="nav-link scrollto contact" href="#contact">Contact</a>
               </li>
@@ -356,10 +356,10 @@
     <!-- ================Testimonials================ -->
     <div id="testimonials" class="testimonials-section">
       <div class="container">
-        <h2 class="section-title text-center">Case Studies</h2>
+        <h2 class="section-title text-center pb-6">Case Studies</h2>
         <!-- START THE FEATURETTES -->
 
-        <hr class="featurette-divider" />
+        <!-- <hr class="featurette-divider" />
 
         <div class="row featurette">
           <div class="col-md-12 text-center">
@@ -378,9 +378,8 @@
             </p>
           </div>
           <div class="col-md-6">
-            <!-- START FLIP -->
             <div class="container">
-              <div class="flip-box">
+              <div class="flip-box mx-auto">
                 <img
                   class="flip-box-img"
                   src="assets\img\casestudies\pages-UL136.jpg"
@@ -398,58 +397,353 @@
                 </div>
               </div>
             </div>
-            <!-- END FLIP -->
 
-            <!-- <img
-              class="rounded float-start bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
-              src="assets\img\casestudies\pages-UL136.jpg"
-              alt="Boring papers"
-              width="500"
-            /> -->
+          
           </div>
           <div class="col-md-6">
-            <!-- START FLIP -->
             <div class="container">
-              <div class="flip-box">
+              <div class="flip-box mx-auto">
                 <img
                   class="flip-box-img"
                   src="assets\img\casestudies\pressure-cooker.gif"
                 />
                 <div class="flip-box-content">
-                  <!-- <h1 class="text-center">WAKE UP!</h1> -->
                   <img
-                    src="https://img.jakpost.net/c/2019/11/24/2019_11_24_82740_1574560160._large.jpg"
+                    src="assets\img\casestudies\pow.png"
                     alt="Pow!"
                     width="100%"
                     height="100%"
                   />
+                </div>
+              </div>
+            </div>
+            
+          </div>
+        </div> -->
+        <!-- ===================================================== -->
+        <hr class="featurette-divider" />
+
+        <div class="row featurette">
+          <div class="col-md-12 text-center text-light">
+            <h1 class="featurette-heading p-4 mb-3 text-stroke">
+              Wake up your sleeping jurors!
+              <!-- <h3 class="text-muted">Severely burned toddler:</h3> -->
+            </h1>
+            <img
+              class="img-responsive mb-5"
+              src="assets\img\casestudies\bored-juror.jpg"
+              alt="bored juror"
+              width="100%"
+            />
+            <!-- ====================CASE 1====================== -->
+            <hr class="featurette-divider" />
+            <h3 class="case-title">The Case of the Severely Burned Toddler.</h3>
+            <span class="d-block w-auto p-2 pt-4 text-bg-light"
+              >Defense said it was impossible for the product to fail like this.
+              We showed them it could.</span
+            >
+            <span class="d-block w-auto p-2 pb-4 text-bg-light"
+              ><strong
+                >They settled the case before plaintiff's counsel could show the
+                jury!</strong
+              ></span
+            >
+
+            <!-- =====MODAL START======== -->
+            <button
+              type="button"
+              class="btn btn-info m-4"
+              data-bs-toggle="modal"
+              data-bs-target="#toddlerModal"
+            >
+              Learn more about this case...
+            </button>
+
+            <!-- Modal -->
+            <div
+              class="modal fade"
+              id="toddlerModal"
+              tabindex="-1"
+              aria-labelledby="toddlerModalLabel"
+              aria-hidden="true"
+            >
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1
+                      class="modal-title fs-5 text-dark"
+                      id="toddlerModalLabel"
+                    >
+                      The Case of the Severely Burned Toddler
+                    </h1>
+                    <button
+                      type="button"
+                      class="btn-close"
+                      data-bs-dismiss="modal"
+                      aria-label="Close"
+                    ></button>
+                  </div>
+                  <div class="modal-body text-secondary">
+                    <strong>Lorem ipsum dolor sit amet,</strong> consectetur
+                    adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Ut enim ad minim veniam, quis
+                    nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                    commodo consequat. Duis aute irure dolor in reprehenderit in
+                    voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    Excepteur sint occaecat cupidatat non proident, sunt in
+                    culpa qui officia deserunt mollit anim id est laborum.
+                  </div>
+                  <div class="modal-footer">
+                    <button
+                      type="button"
+                      class="btn btn-secondary"
+                      data-bs-dismiss="modal"
+                    >
+                      Close
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- =====MODAL END======== -->
+            <!-- =====ACCORDIAN START======== -->
+            <!-- <div class="accordion" id="accordionExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseOne"
+                    aria-expanded="false"
+                    aria-controls="collapseOne"
+                  >
+                    Learn more about this case...
+                  </button>
+                </h2>
+                <div
+                  id="collapseOne"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="headingOne"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body">
+                    <strong>Lorem ipsum dolor sit amet,</strong> consectetur
+                    adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Ut enim ad minim veniam, quis
+                    nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                    commodo consequat. Duis aute irure dolor in reprehenderit in
+                    voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    Excepteur sint occaecat cupidatat non proident, sunt in
+                    culpa qui officia deserunt mollit anim id est laborum.
+                  </div>
+                </div>
+              </div>
+            </div> -->
+            <!-- =====ACCORDIAN END======== -->
+          </div>
+          <div class="col-md-6">
+            <!-- START FLIP -->
+            <div class="container card float-start">
+              <h4 class="card-header text-center text-dark">
+                Boring documents...
+              </h4>
+              <div class="flip-box mx-auto">
+                <img
+                  class="flip-box-img"
+                  src="assets\img\casestudies\pages-UL136.jpg"
+                />
+                <div class="flip-box-content">
+                  <!-- <h1 class="text-center">Zzzzzzzzzzz...</h1> -->
+                  <!-- <img
+                    src="assets\img\bored2.jpg"
+                    alt="Bored guy"
+                    width="100%"
+                    height="110%"
+                  /> -->
+                  <img
+                    src="https://www.roklawyers.com/wp-content/uploads/sites/284/primary-images/515-513.jpg"
+                    alt="Bored Jury"
+                    width="100%"
+                    height="100%"
+                  />
                   <!-- <p class="fs-5">
-                    When you go to the movies, you don't want them to just hand
-                    you the script to read in the theater, you want to see it in
-                    action! Seeing it in action grabs your attention and helps
-                    you understand everything about the story. Reading words
-                    from a boring old technical document does not have that same
-                    affect!
+                    When you go to the movies, you don't want the box office
+                    attendant to just hand you the script to read in the
+                    theater, you want to see it in action! Seeing it in action
+                    grabs your attention and helps you understand everything
+                    about the story. Reading words from a boring old technical
+                    document does not have that same affect!
                   </p> -->
                 </div>
               </div>
             </div>
             <!-- END FLIP -->
-            <!-- <img
-              class="rounded float-end bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
-              src="assets\img\casestudies\pressure-cooker.gif"
-              alt="Pressure Cooker Explotion"
-              width="500"
-            /> -->
+          </div>
+          <div class="col-md-6">
+            <!-- START FLIP -->
+            <div class="container card float-end">
+              <h4 class="card-header text-center text-dark">
+                ...or capture their attention with a BANG!?
+              </h4>
+              <div class="flip-box mx-auto">
+                <img
+                  class="flip-box-img"
+                  src="assets\img\casestudies\pressure-cooker.gif"
+                />
+                <div class="flip-box-content">
+                  <img
+                    src="assets\img\casestudies\bang.png"
+                    alt="Bang!"
+                    width="100%"
+                    height="100%"
+                  />
+                </div>
+              </div>
+            </div>
+            <!-- END FLIP -->
           </div>
         </div>
-        <!-- ===================================================== -->
-        <hr class="featurette-divider" />
+        <!-- ====================CASE 2====================== -->
+
+        <div class="row featurette">
+          <div class="col-md-12 text-center text-light">
+            <hr class="featurette-divider mt-5" />
+            <h3 class="case-title">The Case of the Brain Damaged Bicyclist.</h3>
+            <span class="d-block w-auto p-2 pt-4 text-bg-light"
+              >A complicated road construction case was made obvious with a full
+              scale exemplar that the plaintiff lawyers could pick up with one
+              hand and bring to trial.</span
+            >
+            <span class="d-block w-auto p-2 pb-4 text-bg-light"
+              ><strong
+                >They didn't have to carry it to court, the case settled during
+                exhibit inspection!</strong
+              ></span
+            >
+            <!-- <div class=""></div> -->
+
+            <!-- =====MODAL START======== -->
+            <button
+              type="button"
+              class="btn btn-info m-4"
+              data-bs-toggle="modal"
+              data-bs-target="#bicycleModal"
+            >
+              Learn more about this case...
+            </button>
+
+            <!-- Modal -->
+            <div
+              class="modal fade"
+              id="bicycleModal"
+              tabindex="-1"
+              aria-labelledby="bicycleModalLabel"
+              aria-hidden="true"
+            >
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1
+                      class="modal-title fs-5 text-dark"
+                      id="bicycleModalLabel"
+                    >
+                      The Case of the Brain Damaged Bicyclist
+                    </h1>
+                    <button
+                      type="button"
+                      class="btn-close"
+                      data-bs-dismiss="modal"
+                      aria-label="Close"
+                    ></button>
+                  </div>
+                  <div class="modal-body text-secondary">
+                    <strong>Lorem ipsum dolor sit amet,</strong> consectetur
+                    adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Ut enim ad minim veniam, quis
+                    nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                    commodo consequat. Duis aute irure dolor in reprehenderit in
+                    voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    Excepteur sint occaecat cupidatat non proident, sunt in
+                    culpa qui officia deserunt mollit anim id est laborum.
+                  </div>
+                  <div class="modal-footer">
+                    <button
+                      type="button"
+                      class="btn btn-secondary"
+                      data-bs-dismiss="modal"
+                    >
+                      Close
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- =====MODAL END======== -->
+          </div>
+          <div class="col-md-6">
+            <!-- START FLIP -->
+            <div class="container card float-start">
+              <h4 class="card-header text-center text-dark">
+                Can your juror read blueprints?
+              </h4>
+              <div class="flip-box mx-auto">
+                <img
+                  class="flip-box-img"
+                  src="assets\img\casestudies\bicycle-docs-sm.png"
+                />
+                <div class="flip-box-content">
+                  <img
+                    src="assets\img\casestudies\idontknow.jpg"
+                    alt="I don't know shrug"
+                    width="100%"
+                    height="110%"
+                  />
+
+                  <!-- <p class="fs-5">
+                    When you go to the movies, you don't want the box office
+                    attendant to just hand you the script to read in the
+                    theater, you want to see it in action! Seeing it in action
+                    grabs your attention and helps you understand everything
+                    about the story. Reading words from a boring old technical
+                    document does not have that same affect!
+                  </p> -->
+                </div>
+              </div>
+            </div>
+            <!-- END FLIP -->
+          </div>
+          <div class="col-md-6">
+            <!-- START FLIP -->
+            <div class="container card float-end">
+              <h4 class="card-header text-center text-dark">
+                For that matter.. can you?
+              </h4>
+              <div class="flip-box mx-auto">
+                <img
+                  class="flip-box-img"
+                  src="assets\img\casestudies\bicycle-grid.jpg"
+                />
+                <div class="flip-box-content">
+                  <img
+                    src="assets\img\casestudies\wow.jpg"
+                    alt="Pow!"
+                    width="100%"
+                    height="100%"
+                  />
+                </div>
+              </div>
+            </div>
+            <!-- END FLIP -->
+          </div>
+        </div>
+        <!-- ========================FEATURETTE-PLACEHOLDERS============================= -->
+        <!-- <hr class="featurette-divider" />
 
         <div class="row featurette">
           <div class="col-md-7 order-md-2">
             <h2 class="featurette-heading fw-normal lh-1">
-              Oh yeah, it’s that good.
+              Oh yeah, it's that good.
               <span class="text-muted">See for yourself.</span>
             </h2>
             <p class="lead">
@@ -506,7 +800,7 @@
               <text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text>
             </svg>
           </div>
-        </div>
+        </div> -->
 
         <hr class="featurette-divider" />
 
@@ -611,7 +905,7 @@
     </div>
     <!--//testimonials-->
     <!-- OLD CASE STUDIES -->
-    <div id="features" class="features-section">
+    <!-- <div id="features" class="features-section">
       <div class="container text-center">
         <h2 class="section-title">Case Studies</h2>
         <p class="intro">
@@ -621,7 +915,6 @@
         </p>
 
         <div class="tabbed-area row">
-          <!-- Nav tabs -->
           <div
             class="feature-nav nav nav-pill flex-column col-lg-4 col-md-6 col-12 order-0 order-md-1"
             role="tablist"
@@ -706,7 +999,6 @@
             >
           </div>
 
-          <!-- Tab panes -->
           <div
             class="feature-content tab-content col-lg-8 col-md-6 col-12 order-1 order-md-0"
           >
@@ -779,14 +1071,11 @@
               /></a>
             </div>
           </div>
-          <!--//feature-content-->
         </div>
-        <!--//tabbed-area-->
       </div>
-      <!--//container-->
-    </div>
+    </div> -->
     <!--//features-->
-    <!-- Who We Are -->
+    <!-- ==============Who We Are============== -->
     <div class="team-section" id="team">
       <div class="container text-center">
         <h2 class="section-title">Who We Are</h2>
@@ -926,7 +1215,7 @@
     </div>
     <!--//team-section-->
 
-    <div id="pricing" class="pricing-section">
+    <!-- <div id="pricing" class="pricing-section">
       <div class="container text-center">
         <h2 class="section-title">Pricing</h2>
         <div class="intro">
@@ -943,7 +1232,6 @@
               <div class="price-figure">
                 <span class="currency">$</span><span class="number">0</span>
               </div>
-              <!--//price-figure-->
               <ul class="list-unstyled mb-3">
                 <li class="mb-2">
                   <i class="fa-solid fa-check"></i> Single installation
@@ -960,9 +1248,7 @@
               </div>
               <a class="btn btn-inverse btn-cta" href="#">Get it now</a>
             </div>
-            <!--//item-inner-->
           </div>
-          <!--//item-->
           <div class="item item-2 col-md-4 col-12">
             <div class="item-inner">
               <h3 class="item-heading">
@@ -974,7 +1260,6 @@
               <div class="price-figure">
                 <span class="currency">$</span><span class="number">29</span>
               </div>
-              <!--//price-figure-->
               <ul class="list-unstyled mb-3">
                 <li class="mb-2">
                   <i class="fa-solid fa-check"></i> Single installation
@@ -991,9 +1276,7 @@
               </div>
               <a class="btn btn-inverse btn-cta" href="#">Get it now</a>
             </div>
-            <!--//item-inner-->
           </div>
-          <!--//item-->
 
           <div class="item item-3 col-md-4 col-12">
             <div class="item-inner">
@@ -1005,7 +1288,6 @@
               <div class="price-figure">
                 <span class="currency">$</span><span class="number">99</span>
               </div>
-              <!--//price-figure-->
               <ul class="list-unstyled mb-3">
                 <li class="mb-2">
                   <i class="fa-solid fa-check"></i> Single installation
@@ -1024,14 +1306,10 @@
                 >Get it now</a
               >
             </div>
-            <!--//item-inner-->
           </div>
-          <!--//item-->
         </div>
-        <!--//pricing-wrapper-->
       </div>
-      <!--//container-->
-    </div>
+    </div> -->
     <!--//pricing-section-->
     <div id="contact" class="contact-section">
       <div class="container text-center">

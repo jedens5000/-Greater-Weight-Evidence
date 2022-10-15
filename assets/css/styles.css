@@ -14,6 +14,7 @@
 body {
   font-family: "Open Sans", arial, sans-serif;
   color: #494d55;
+  /* color: #494d55; */
   font-size: 14px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -140,10 +141,12 @@ a.btn-cta {
   /* bottom: -350px; */
   top: 95vh;
   margin-bottom: 0;
+  background-color: #000;
 }
 
 .carousel-indicators li[data-bs-target] {
-  background-color: rgba(255, 255, 255, 0.2);
+  background-color: rgba(0, 0, 0);
+  /* background-color: rgba(255, 255, 255, 0.2); */
   border: 1px solid #40babd;
   width: 16px;
   height: 16px;
@@ -618,11 +621,11 @@ a.btn-cta {
   border-right: 10px solid rgba(0, 0, 0, 0.2);
 }
 
-/* ======= Testimonials CARD FLIP START======= */
+/* ======= CASE STUDIES CARD FLIP START======= */
 .flip-box {
   height: auto;
   width: 500px;
-  /* border: 2px solid #eee; */
+  border: 3px solid #eee;
   position: relative;
   overflow: hidden;
   cursor: pointer;
@@ -640,7 +643,8 @@ a.btn-cta {
 }
 
 .flip-box-content {
-  background-color: brown;
+  background-color: rgba(0, 0, 0, 0.1);
+  /* background-color: brown; */
   position: absolute;
   top: 0;
   left: 0;
@@ -649,16 +653,34 @@ a.btn-cta {
   /* padding: 10px; */
   box-sizing: border-box;
   transform: scale(0) rotate(-180deg);
-  transition: all 0.5s;
+  transition: all 0.3s;
   color: #fff;
 }
 
 .flip-box:hover .flip-box-content {
   opacity: 1;
   transform: scale(1) rotate(0deg);
-  transition-delay: 0.3s;
+  transition-delay: 0.1s;
 }
-/* ======= Testimonials CARD FLIP END ======= */
+
+.row .featurette {
+  color: #fff;
+}
+
+.text-stroke {
+  font-weight: bold;
+  -webkit-text-stroke: 1px #494d55;
+}
+.case-title {
+  font-size: 30px;
+  line-height: 1.4;
+  font-weight: bold;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  -webkit-text-stroke: 1px #494d55;
+}
+
+/* ======= CASE STUDIES CARD FLIP END ======= */
 /* ======= Testimonials Section ======= */
 .testimonials-section {
   background: #40babd url("../images/map.png") no-repeat center center;
@@ -666,7 +688,7 @@ a.btn-cta {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  padding-top: 90px;
+  padding-top: 30px;
   padding-bottom: 90px;
 }
 
