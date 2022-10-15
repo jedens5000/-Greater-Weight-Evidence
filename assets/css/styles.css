@@ -648,9 +648,8 @@ a.btn-cta {
   position: absolute;
   top: 0;
   left: 0;
-  height: 100%;
-  width: 100%;
-  /* padding: 10px; */
+  /* height: 100%;
+  width: 100%; */
   box-sizing: border-box;
   transform: scale(0) rotate(-180deg);
   transition: all 0.3s;
@@ -664,12 +663,16 @@ a.btn-cta {
 }
 
 .row .featurette {
-  color: #fff;
+  color: blanchedalmond;
+  /* color: #fff; */
 }
 
 .text-stroke {
   font-weight: bold;
   -webkit-text-stroke: 1px #494d55;
+}
+.text-bubble {
+  border-radius: 25px;
 }
 .case-title {
   font-size: 30px;
@@ -679,6 +682,11 @@ a.btn-cta {
   margin-bottom: 15px;
   -webkit-text-stroke: 1px #494d55;
 }
+
+card img {
+  max-width: 100%;
+}
+/* style="max-width: 100%" */
 
 /* ======= CASE STUDIES CARD FLIP END ======= */
 /* ======= Testimonials Section ======= */
