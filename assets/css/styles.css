@@ -14,7 +14,6 @@
 body {
   font-family: "Open Sans", arial, sans-serif;
   color: #494d55;
-  /* color: #494d55; */
   font-size: 14px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -624,7 +623,7 @@ a.btn-cta {
 /* ======= CASE STUDIES CARD FLIP START======= */
 .flip-box {
   height: auto;
-  width: 500px;
+  /* width: 500px; */
   border: 3px solid #eee;
   position: relative;
   overflow: hidden;
@@ -633,8 +632,8 @@ a.btn-cta {
 }
 
 .flip-box .flip-box-img {
-  width: 100%;
-  height: 100%;
+  max-width: 100%;
+  /* height: 100%; */
   transition: all 0.5s;
 }
 
@@ -671,16 +670,28 @@ a.btn-cta {
   font-weight: bold;
   -webkit-text-stroke: 1px #494d55;
 }
+.case-studies-intro {
+  /* position: absolute; */
+  /* position: relative; */
+  /* top: 180px; */
+  /* left: 16px; */
+  z-index: 1000;
+}
+.bored-jury {
+  position: relative;
+  top: -120px;
+}
+
 .text-bubble {
   border-radius: 25px;
 }
 .case-title {
-  font-size: 30px;
+  font-size: 2.5rem;
+  /* font-size: 40px; */
   line-height: 1.4;
   font-weight: bold;
-  margin-top: 15px;
-  margin-bottom: 15px;
-  -webkit-text-stroke: 1px #494d55;
+  padding: 15px;
+  /* -webkit-text-stroke: 1px #494d55; */
 }
 
 card img {
