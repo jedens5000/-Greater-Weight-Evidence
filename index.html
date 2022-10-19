@@ -368,7 +368,7 @@ font-family: 'Rajdhani', sans-serif; -->
     <!-- ================Testimonials================ -->
     <div id="testimonials" class="testimonials-section">
       <div class="container">
-        <h2 class="section-title text-center pb-6">Case Studies</h2>
+        <h2 class="section-title text-muted text-center pb-6">Case Studies</h2>
         <!-- START THE FEATURETTES -->
 
         <!-- <hr class="featurette-divider" />
@@ -467,25 +467,24 @@ font-family: 'Rajdhani', sans-serif; -->
         <hr class="featurette-divider" />
 
         <!-- <div class="row featurette"> -->
-        <div class="container text-muted bg-light">
-          <div class="row">
+        <div class="container text-muted grey-border">
+          <div class="row bg-light case-studies-intro">
             <!-- <h1 class="case-studies-intro p-4 mb-3 text-stroke text-light">
               Wake up your sleeping jurors!
             </h1> -->
-            <h3>
+            <!-- <h3>
               When the opposing lawyers are faced with a situation where their
               mere words can't explain away what the jurors can see, feel, touch
               and experience, then one of two things happens:
-            </h3>
-            <h3>
+
               <ul class="mx-5 pt-4">
                 <li>They lose.</li>
                 <li>They settle before they lose.</li>
               </ul>
-            </h3>
+            </h3> -->
 
             <h1
-              class="case-studies-intro p-4 mb-3 text-stroke text-dark bg-warning text-center"
+              class="dont-sleep p-4 mb-3 text-stroke text-dark bg-warning text-center"
             >
               Don't put your jurors to sleep!
             </h1>
@@ -493,14 +492,26 @@ font-family: 'Rajdhani', sans-serif; -->
               class="img-responsive bored-jury mb-5"
               src="assets\img\casestudies\bored-juror.jpg"
               alt="bored juror"
-              width="100%"
             />
+
+            <h3>
+              When the opposing lawyers are faced with a situation where their
+              mere words can't explain away what the jurors can see, feel, touch
+              and experience, then one of two things happens:
+
+              <ul class="mx-5 pt-4 text-center text-dark">
+                <li class="pb-2">
+                  They lose, or they settle before they lose.
+                </li>
+                <!-- <li>2. They settle before they lose.</li> -->
+              </ul>
+            </h3>
           </div>
         </div>
         <!-- ====================CASE 1====================== -->
         <hr class="featurette-divider" />
         <div class="col-md-12 text-center">
-          <div class="bg-light text-bubble">
+          <div class="text-bubble bg-light">
             <h3 class="case-title">The Case of the Severely Burned Toddler.</h3>
             <hr class="case-hr" />
             <span class="d-block w-auto p-2 pt-4"
@@ -626,17 +637,16 @@ font-family: 'Rajdhani', sans-serif; -->
                     />
                     <div class="flip-box-content">
                       <!-- <h1 class="text-center">Zzzzzzzzzzz...</h1> -->
-                      <!-- <img
-                    src="assets\img\bored2.jpg"
-                    alt="Bored guy"
-                    width="100%"
-                    height="110%"
-                  /> -->
                       <img
+                        src="assets\img\casestudies\bored-juror-closeup-500.jpg"
+                        alt="Bored juror"
+                        width="100%"
+                      />
+                      <!-- <img
                         src="https://www.roklawyers.com/wp-content/uploads/sites/284/primary-images/515-513.jpg"
                         alt="Bored Jury"
                         width="100%"
-                      />
+                      /> -->
                       <!-- <p class="fs-5">
                     When you go to the movies, you don't want the box office
                     attendant to just hand you the script to read in the
@@ -654,7 +664,7 @@ font-family: 'Rajdhani', sans-serif; -->
                 <!-- START FLIP -->
                 <div class="container card pb-3 float-end">
                   <h4 class="card-header text-center text-dark">
-                    ...or capture their attention with a BANG!?
+                    ...or capture their attention with&nbsp;a&nbsp;BANG!
                   </h4>
                   <div class="flip-box mx-auto">
                     <img
@@ -860,7 +870,7 @@ font-family: 'Rajdhani', sans-serif; -->
                         class="modal-title fs-5 text-dark"
                         id="rolloverModalLabel"
                       >
-                        The Case of the Brain Damaged Bicyclist
+                        The Case of the Mother Killed in a Rollover Accident.
                       </h1>
                       <button
                         type="button"
@@ -898,21 +908,48 @@ font-family: 'Rajdhani', sans-serif; -->
           <div class="d-flex justify-content-evenly">
             <!-- <div class="col-auto"> -->
             <div class="col-12 col-md-5">
-              <!-- START FLIP -->
-              <div class="container card pb-3 float-start">
+              <!-- START SIDEWAYS CARD FLIP -->
+
+              <!-- <div class="container card pb-3 float-start flip-card">
                 <h4 class="card-header text-center text-dark">
                   Can your juror read blueprints?
                 </h4>
-                <div class="flip-box mx-auto">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                    <img
+                      src="assets\img\casestudies\roll-over-500.jpg"
+                      alt="Lying expert"
+                      style="width: 300px; height: 300px"
+                    />
+                  </div>
+                  <div class="flip-card-back">
+                    <h1>John Doe</h1>
+                    <p>Architect & Engineer</p>
+                    <p>We love that guy</p>
+                  </div>
+                </div>
+              </div> -->
+              <!-- END SIDEWAYS CARD FLIP -->
+              <!-- START FLIP -->
+              <div class="container bg-light card pb-3 float-start flip-card">
+                <h4 class="card-header text-center text-dark">
+                  Does your juror know how minimal a 23 degree turn is?
+                </h4>
+                <div class="flip-card-inner mx-auto">
                   <img
-                    class="img-fluid flip-box-img"
+                    class="img-fluid flip-card-front"
                     src="assets\img\casestudies\roll-over-500.jpg"
+                    alt="Expert lies"
+                    width="500"
+                    height="375"
                   />
-                  <div class="flip-box-content">
+                  <div class="flip-card-back">
                     <img
                       class="img-fluid"
-                      src="assets\img\casestudies\idontknow-500.jpg"
-                      alt="I don't know shrug"
+                      src="assets\img\casestudies\protractor-25-500.gif"
+                      alt="Protractor"
+                      width="500"
+                      height="375"
                     />
                   </div>
                 </div>
@@ -923,18 +960,19 @@ font-family: 'Rajdhani', sans-serif; -->
               <!-- START FLIP -->
               <div class="container card pb-3 float-start">
                 <h4 class="card-header text-center text-dark">
-                  For that matter.. can you?
+                  Do they think turning the wheel more than 16 degrees is
+                  driving wreckless?
                 </h4>
                 <div class="flip-box mx-auto">
                   <img
                     class="flip-box-img"
-                    src="assets\img\casestudies\roll-over-500.gif"
+                    src="assets\img\casestudies\wheel-turn-500.gif"
                     width="100%"
                   />
                   <div class="img-fluid flip-box-content">
                     <img
                       class="card-img"
-                      src="assets\img\casestudies\wow-500.jpg"
+                      src="assets\img\casestudies\pow.png"
                       alt="Wow!"
                       width="100%"
                     />

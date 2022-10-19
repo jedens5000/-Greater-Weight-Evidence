@@ -676,21 +676,45 @@ a.btn-cta {
   font-weight: bold;
   -webkit-text-stroke: 1px #494d55;
 }
-.case-studies-intro {
+.dont-sleep {
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  /* font-family: "Libre Baskerville", serif; */
   /* position: absolute; */
   /* position: relative; */
   /* top: 180px; */
   /* left: 16px; */
   z-index: 1000;
 }
+.case-studies-intro {
+  background: #fefae0;
+  /* font-weight: 800; */
+  /* text-transform: uppercase; */
+  /* letter-spacing: 0.1em; */
+  /* font-family: "Libre Baskerville", serif; */
+  /* position: absolute; */
+  /* position: relative; */
+  /* top: 180px; */
+  /* left: 16px; */
+  z-index: 1000;
+}
+
+ul {
+  list-style-type: none;
+  font-weight: 700;
+}
+
 .bored-jury {
   position: relative;
-  top: -120px;
+  /* top: -120px; */
+  width: 100vw;
 }
 
 .text-bubble {
-  border-radius: 25px;
-  width: 85%;
+  /* background-color: #fefae0; */
+  /* border-radius: 5px; */
+  width: 90%;
   margin: 0 auto 25px;
 }
 .case-title {
@@ -704,6 +728,9 @@ a.btn-cta {
   /* -webkit-text-stroke: 1px #494d55; */
 }
 
+.grey-border {
+  border: 1px solid #494d55;
+}
 .case-hr {
   border: 1px solid #494d55;
   width: 90%;
@@ -722,9 +749,57 @@ a.btn-cta {
 }
 
 /* ======= CASE STUDIES CARD FLIP END ======= */
+/* ======= CASE STUDIES SIDEWAYS FLIP START======= */
+.flip-card {
+  background-color: transparent;
+  /* width: 300px; */
+  /* height: 300px; */
+  height: 100%;
+  perspective: 1000px;
+}
+
+.flip-card-inner {
+  position: relative;
+  /* width: 100%; */
+  /* height: 100%; */
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front,
+.flip-card-back {
+  position: relative;
+  /* position: absolute; */
+  /* width: 100%; */
+  /* height: 100%; */
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  /* position: absolute; */
+  background-color: #bbb;
+  color: black;
+}
+
+.flip-card-back {
+  position: absolute;
+  background-color: #2980b9;
+  color: white;
+  transform: rotateY(180deg);
+}
+/* ======= CASE STUDIES SIDEWAYS FLIP END======= */
+
 /* ======= Testimonials Section ======= */
 .testimonials-section {
-  background: #0dcaf0 url("../images/map.png") no-repeat center center;
+  background: #fefae0 url("../images/map.png") repeat center center;
+  /* background: #0dcaf0 url("../images/map.png") repeat center center; */
   /* background: #40babd url("../images/map.png") no-repeat center center; */
   -webkit-background-size: cover;
   -moz-background-size: cover;
