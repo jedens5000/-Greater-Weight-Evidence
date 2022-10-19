@@ -191,8 +191,11 @@ a.btn-cta {
 }
 
 .header.header-scrolled .logo {
-  color: #40babd;
+  color: #494d55;
+  /* color: #0dcaf0; */
+  /* color: #40babd; */
   top: 0;
+  -webkit-text-stroke-color: #494d55;
 }
 
 .header.header-scrolled .logo:focus {
@@ -200,7 +203,9 @@ a.btn-cta {
 }
 
 .header.header-scrolled .logo .logo-icon-wrapper {
-  background: #40babd;
+  background: #0dcaf0;
+  /* background: #494d55; */
+  /* background: #40babd; */
   width: 40px;
   height: 40px;
   -webkit-border-radius: 50%;
@@ -230,7 +235,8 @@ a.btn-cta {
 
 .header.header-scrolled .main-nav .nav .active .nav-link {
   color: #494d55;
-  border-bottom: 4px solid #40babd;
+  border-bottom: 4px solid #0dcaf0;
+  /* border-bottom: 4px solid #40babd; */
 }
 
 .header a {
@@ -688,6 +694,8 @@ a.btn-cta {
   margin: 0 auto 25px;
 }
 .case-title {
+  /* font-family: "Rajdhani", sans-serif; */
+  font-family: "Libre Baskerville", serif;
   font-size: 2.5rem;
   /* font-size: 40px; */
   line-height: 1.4;
@@ -696,16 +704,28 @@ a.btn-cta {
   /* -webkit-text-stroke: 1px #494d55; */
 }
 
+.case-hr {
+  border: 1px solid #494d55;
+  width: 90%;
+  margin: 0 auto;
+}
+
 .card-img {
   /* max-width: 100%; */
   max-height: 100%;
   object-fit: fill;
 }
 
+.card,
+.text-bubble {
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.4);
+}
+
 /* ======= CASE STUDIES CARD FLIP END ======= */
 /* ======= Testimonials Section ======= */
 .testimonials-section {
-  background: #40babd url("../images/map.png") no-repeat center center;
+  background: #0dcaf0 url("../images/map.png") no-repeat center center;
+  /* background: #40babd url("../images/map.png") no-repeat center center; */
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
