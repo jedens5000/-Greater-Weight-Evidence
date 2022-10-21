@@ -34,7 +34,7 @@ a {
 
 a:hover {
   text-decoration: underline;
-  color: #339597;
+  color: #0ba3c1;
 }
 
 a:active {
@@ -77,8 +77,9 @@ a.btn-cta {
 }
 
 .btn-primary {
-  background: #40babd;
-  border: 1px solid #40babd;
+  background: #0dcaf0;
+  /* background: #40babd; */
+  border: 1px solid #0dcaf0;
   color: #fff;
 }
 
@@ -87,9 +88,10 @@ a.btn-cta {
 .btn-primary:active,
 .btn-primary.active,
 .btn-primary.hover {
-  background: #3aa7aa;
+  background: #60d9f1;
+  /* background: #3aa7aa; */
   color: #fff;
-  border: 1px solid #3aa7aa;
+  border: 1px solid #0ba3c1;
 }
 
 .btn-inverse {
@@ -106,6 +108,15 @@ a.btn-cta {
   background: rgba(0, 0, 0, 0.5);
   color: #fff;
   border: 1px solid transparent;
+}
+
+.btn-text-dark,
+.btn-text-dark:hover {
+  color: #494d55;
+}
+.btn-text-dark:hover {
+  /* background: #0ba3c1; */
+  border: 1px solid #494d55;
 }
 
 .carousel-fade .carousel-inner .item {
@@ -754,15 +765,16 @@ ul {
   background-color: transparent;
   /* width: 300px; */
   /* height: 300px; */
+  width: 100%;
   height: 100%;
   perspective: 1000px;
 }
 
 .flip-card-inner {
   position: relative;
-  /* width: 100%; */
-  /* height: 100%; */
-  text-align: center;
+  width: 100%;
+  height: 100%;
+  /* text-align: center; */
   transition: transform 0.6s;
   transform-style: preserve-3d;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -774,23 +786,23 @@ ul {
 
 .flip-card-front,
 .flip-card-back {
-  position: relative;
-  /* position: absolute; */
-  /* width: 100%; */
-  /* height: 100%; */
+  /* position: relative; */
+  position: absolute;
+  width: 100%;
+  height: 100%;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
 }
 
 .flip-card-front {
-  /* position: absolute; */
-  background-color: #bbb;
+  position: absolute;
+  background-color: #fff;
   color: black;
 }
 
 .flip-card-back {
-  position: absolute;
-  background-color: #2980b9;
+  /* position: absolute; */
+  background-color: #fff;
   color: white;
   transform: rotateY(180deg);
 }
